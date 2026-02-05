@@ -71,8 +71,8 @@ curl -X POST "http://127.0.0.1:8000/analyze" \
 
 1.  **Clone the Repo**:
     ```bash
-    git clone https://github.com/yourusername/writing-quality-api.git
-    cd writing-quality-api
+    git clone https://github.com/infuriiating/Writing-Quality-Inspector-API.git
+    cd Writing-Quality-Inspector-API
     ```
 
 2.  **Environment Setup**:
@@ -82,7 +82,19 @@ curl -X POST "http://127.0.0.1:8000/analyze" \
     API_SECRET=your-secret-key
     ```
 
-3.  **Run Locally**:
+3.  **Virtual Environment (Recommended)**:
+    ```bash
+    # Create venv
+    python -m venv venv
+    
+    # Activate (Windows)
+    .\venv\Scripts\activate
+    
+    # Activate (Mac/Linux)
+    source venv/bin/activate
+    ```
+
+4.  **Run Locally**:
     ```bash
     pip install -r requirements.txt
     uvicorn app.main:app --reload
