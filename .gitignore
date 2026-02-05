@@ -1,0 +1,36 @@
+# Environment Variables (Sensitive!)
+.env
+.env.*
+*.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
